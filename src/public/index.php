@@ -6,6 +6,8 @@
  * Time: 23:42
  */
 
+session_start();
+
 require_once __DIR__ . '/../app.php';
 
 $app->run();
